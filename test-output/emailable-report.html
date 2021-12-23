@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Default suite</th></tr><tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">385,728</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">configure_WRIG0483.AWF_WRIG0483</td><td><a href="#m0">setApprovalWorkFlowForWRIG0483</a></td><td rowspan="1">1594445408300</td><td rowspan="1">383128</td></tr></tbody></table><h2>Default test</h2><h3 id="m0">configure_WRIG0483.AWF_WRIG0483#setApprovalWorkFlowForWRIG0483</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Entered in UserNameTxtBox: nhecker@workforcelogiq.com<br/>Entered in PasswordTxtBox: Joker@32<br/>Click on Button LoginButton<br/>Element is present<br/>Element is present<br/>Click on Link Customers_Link<br/>Click on Link DIVISION_MENU_LINK<br/>Element is present<br/>Element is present<br/>Element is present<br/>Element is present<br/>Element is present<br/>Element is present<br/>Element is present<br/>Element is present<br/>Click on Button DivisionDetails_ConfigurationLink<br/>Click on Button ApprovalWorkFlowTab_ClientDetails<br/>Element is present<br/>Entered in ApprovalGroupName_ApprovalGroup: Primary Owner<br/>Click on Link ADD_BUTTON<br/>Element is present<br/>Element is present<br/>Success message is not being appeared  null<br/>Entered in FilterTextBox_ApprovalGroupName: Primary Owner<br/>Element is present<br/>Click on Link AddEditRoleLink<br/>Element is present<br/>Element is present<br/>Element is present<br/>Click on Button ADD_BUTTON<br/>Element is present<br/>Element is present<br/>Click on Link ApprovalSetUp_ClientDetails<br/>Element is present<br/>Element is present<br/>Selected on dropdown Object_ApprovalFlowSetup: Projects<br/>Element is present<br/>Element is present<br/>Entered in StepName_ApprovalFlowSetup: AWF1<br/>Entered in OrderName_ApprovalFlowSetup: 1<br/>Selected on dropdown Field_ApprovalFlowSetup: PONumber<br/>Element is present<br/>Selected on dropdown CompareDD_ApprovalFlowSetup: =<br/>Entered in CompareEditBox_ApprovalFlowSetup: 1234<br/>Element is present<br/>Entered in ApprovalGroupDD_ApprovalFlowSetup: Primary Owner<br/>Element is present<br/>Element is present<br/>Element is present<br/>Click on Button ADD_BUTTON<br/>Element is present<br/>Element is present<br/>Success message is not being appeared  null<br/>Completed executing following method : AWF_WRIG0483.setApprovalWorkFlowForWRIG0483<br/>Completed executing following method : AWF_WRIG0483.setApprovalWorkFlowForWRIG0483<br/>Test Method resides in configure_WRIG0483.AWF_WRIG0483<br/>Test Status: Failed</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=83.0.4103.116)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;VADLH2XPSQ2&apos;, ip: &apos;192.168.31.71&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_141&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\pkhare\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:32232}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a92c5e968dc7d3dd4b57baaba37c8b57
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.zc.webdriver.applicationLiberaries.Common.logout(Common.java:87)
+	at configure_WRIG0483.AWF_WRIG0483.setApprovalWorkFlowForWRIG0483(AWF_WRIG0483.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Pre-Requisite_Project" verbose="1" >
+<listeners>
+      <listener class-name="com.zc.webdriver.commonLiberaries.Listener"/>
+     <!--  <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/> -->
+  </listeners>
+  <test name="Pre-requisite Test Suite"  preserve-order="true" >
+     <classes>
+<!--       <class name="com.zc.webdriver.preRequisite.DivisionRequisite_WorkOrder_Project"/> -->
+<!--         <class name="com.zc.webdriver.preRequisite.DivisionRequisite_ApprovalWorkFlow_Project"/> -->
+<!--         <class name="com.zc.webdriver.preRequisite.JHS_ApprovalWorkFlow_Jackman"/> -->
+<!--         <class name="com.zc.webdriver.preRequisite.JHS_ApprovalWorkFlow_PMO"/> -->
+<!--          <class name="com.zc.webdriver.preRequisite.RemoveRequiredCustomFields"/> -->
+<!-- 			<class name="com.zc.webdriver.preRequisite.CreateMUM"/> -->
+<!-- 			<class name="com.zc.webdriver.preRequisite.MUMAssignedToContract_JHS_SNP"/>  -->
+			<class name="com.zc.webdriver.preRequisite.DefaultApprovalWorkFlowForTS_JHS"/> 
+     
+    </classes>
+ </test>
+</suite>

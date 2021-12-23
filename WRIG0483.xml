@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+      <listener class-name="com.zc.webdriver.commonLiberaries.Listener"/>
+     <!--  <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/> -->
+  </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+    
+      <class name="configure_WRIG0483.RemoveRequiredCustomFields_WRIG0483"/>
+      <class name="configure_WRIG0483.MiscSetting_WRIG0483"/>
+  
+     
+      <class name="configure_WRIG0483.AWF_WRIG0483"/>
+      <class name="configure_WRIG0483.AWF1_WRIG0483"/>
+      <class name="configure_WRIG0483.AWF3_WRIG0483"/>
+      <class name="configure_WRIG0483.AWF4_WRIG0483"/>
+ 
+      <class name="configure_WRIG0483.ProjectConfigured_WRIG0483"/>
+      <class name="configure_WRIG0483.AddContact_WRIG484"/>
+      <class name="configure_WRIG0483.AddExpenseTypeCorporateTravelLodging"/>
+      <class name="configure_WRIG0483.EmailTemplateConfigured_WRIG484"/>
+    
+     
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

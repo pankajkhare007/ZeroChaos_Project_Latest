@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.zc.webdriver.commonLiberaries.Listener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="configure_SHAN0196.SHAN0196_Active">
+        <methods>
+          <include name="startDriver"/>
+        </methods>
+      </class> <!-- configure_SHAN0196.SHAN0196_Active -->
+      <class name="configure_SHAN0196.AddApprovalManager_SHAN0196">
+        <methods>
+          <include name="addContact"/>
+        </methods>
+      </class> <!-- configure_SHAN0196.AddApprovalManager_SHAN0196 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
